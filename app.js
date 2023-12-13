@@ -33,4 +33,4 @@ app.get('/api/campaigns', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Le serveur écoute sur le port ${PORT}, prêt à répandre des rumeurs !`));
+app.listen(PORT, () => console.log(`Le serveur écoute sur le port ${PORT}, prêt à répandre des campagnes !`));
